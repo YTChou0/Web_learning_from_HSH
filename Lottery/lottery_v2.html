@@ -341,7 +341,7 @@
             modal.querySelector('table').innerHTML = '';
             modal.querySelector('h5').innerHTML = `${idArray[currentIndex]}`;
             let _restraunt = RestrauntArray.filter(x => x.id == idArray[currentIndex]);
-            let titlesArray = ["餐廳名稱", "電話", "地址", "備註"];
+            let titlesArray = ["餐廳名稱", "電話", "地址", "幾多錢"];
             let thead = document.createElement('thead');
             AddRow(thead, titlesArray);
             table.appendChild(thead);
